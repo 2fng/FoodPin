@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF895F56265F536A00773ED5 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF895F55265F536A00773ED5 /* WalkthroughContentViewController.swift */; };
 		DF8C3FAE265C881100374D0A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8C3FAD265C881100374D0A /* Onboarding.storyboard */; };
 		F42A6C6F2543E05F009E2876 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42A6C6D2543E05F009E2876 /* Nunito-Bold.ttf */; };
 		F42A6C702543E05F009E2876 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42A6C6E2543E05F009E2876 /* Nunito-Regular.ttf */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF895F55265F536A00773ED5 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		DF8C3FAD265C881100374D0A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		F42A6C6D2543E05F009E2876 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		F42A6C6E2543E05F009E2876 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				F42A6C8F254BD4F0009E2876 /* MapViewController.swift */,
 				F48F8131254FC0860062C520 /* ReviewViewController.swift */,
 				F480451925512B7F00DDC281 /* NewRestaurantController.swift */,
+				DF895F55265F536A00773ED5 /* WalkthroughContentViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				F48D55472536BAE700CE6DE4 /* SceneDelegate.swift in Sources */,
 				F42A6C8D254AC3D6009E2876 /* RestaurantDetailMapCell.swift in Sources */,
 				F4D1A1D6253EB90C00CCD3FA /* RestaurantDiffableDataSource.swift in Sources */,
+				DF895F56265F536A00773ED5 /* WalkthroughContentViewController.swift in Sources */,
 				F4D1A1D92540370700CCD3FA /* RestaurantDetailViewController.swift in Sources */,
 				F42A6C73254569E3009E2876 /* RestaurantDetailHeaderView.swift in Sources */,
 				F48D555B2536BFE000CE6DE4 /* RestaurantTableViewController.swift in Sources */,
