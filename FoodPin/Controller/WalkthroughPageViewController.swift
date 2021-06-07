@@ -7,7 +7,12 @@
 
 import UIKit
 
+protocol WalkthroughPageViewControllerDelegate: class {
+    func didUpdatePageIndex(currentIndex: Int)
+}
+
 class WalkthroughPageViewController: UIPageViewController {
+    weak var walkthroughDelegate: WalkthroughPageViewControllerDelegate?
     
     var pageHeadings = ["CREATE YOUR OWN FOOD GUIDE", "SHOW YOU THE LOCATION", "DISCOVER GREAT RESTAURATNS"]
     var pageImages = ["onboarding-1", "onboarding-2", "onboarding-3"]
@@ -20,6 +25,8 @@ class WalkthroughPageViewController: UIPageViewController {
 
         //set the data source to itself
         dataSource = self
+        //set the delegate to itself
+        delegate = self
         
         //Create the first walkthrough screen
         if let startingViewController = contentViewController(at: 0) {
@@ -89,4 +96,18 @@ extension WalkthroughPageViewController: UIPageViewControllerDataSource {
             return contentViewController(at: index)
     }
     
+}
+
+extension WalkthroughPageViewController: UIPageViewControllerDelegate {
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        
+        if completed {
+            if let contentViewController = pageViewController.viewControllers?.first as? WalkthroughContentViewController {
+                
+                currentIndex = contentViewController.index
+                
+                walkthroughDelegate?.didUpdatePageIndex(currentIndex: contentViewController.index)
+            }
+        }
+    }
 }
