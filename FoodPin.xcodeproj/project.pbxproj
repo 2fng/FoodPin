@@ -11,6 +11,8 @@
 		DF8C3FAE265C881100374D0A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8C3FAD265C881100374D0A /* Onboarding.storyboard */; };
 		DFAF279A2669C06B0016B560 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF27992669C06B0016B560 /* WalkthroughViewController.swift */; };
 		DFAF279C2669C2640016B560 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF279B2669C2640016B560 /* WalkthroughPageViewController.swift */; };
+		DFCA58892692E4DB008BB72E /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCA58882692E4DB008BB72E /* Discover.storyboard */; };
+		DFCA588C2692E5A3008BB72E /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCA588A2692E5A3008BB72E /* About.storyboard */; };
 		F42A6C6F2543E05F009E2876 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42A6C6D2543E05F009E2876 /* Nunito-Bold.ttf */; };
 		F42A6C702543E05F009E2876 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42A6C6E2543E05F009E2876 /* Nunito-Regular.ttf */; };
 		F42A6C73254569E3009E2876 /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42A6C72254569E3009E2876 /* RestaurantDetailHeaderView.swift */; };
@@ -42,6 +44,8 @@
 		DF8C3FAD265C881100374D0A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		DFAF27992669C06B0016B560 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		DFAF279B2669C2640016B560 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		DFCA58882692E4DB008BB72E /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		DFCA588B2692E5A3008BB72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FoodPin/Storyboard/Base.lproj/About.storyboard; sourceTree = "<group>"; };
 		F42A6C6D2543E05F009E2876 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		F42A6C6E2543E05F009E2876 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		F42A6C72254569E3009E2876 /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
@@ -191,8 +195,10 @@
 		F4D1A1D3253DF94F00CCD3FA /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				F48D554F2536BAE900CE6DE4 /* LaunchScreen.storyboard */,
 				F48D554A2536BAE700CE6DE4 /* Main.storyboard */,
+				DFCA588A2692E5A3008BB72E /* About.storyboard */,
+				DFCA58882692E4DB008BB72E /* Discover.storyboard */,
+				F48D554F2536BAE900CE6DE4 /* LaunchScreen.storyboard */,
 				DF8C3FAD265C881100374D0A /* Onboarding.storyboard */,
 			);
 			path = Storyboard;
@@ -256,6 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42A6C702543E05F009E2876 /* Nunito-Regular.ttf in Resources */,
+				DFCA58892692E4DB008BB72E /* Discover.storyboard in Resources */,
+				DFCA588C2692E5A3008BB72E /* About.storyboard in Resources */,
 				F48D55512536BAE900CE6DE4 /* LaunchScreen.storyboard in Resources */,
 				F48D554E2536BAE900CE6DE4 /* Assets.xcassets in Resources */,
 				DF8C3FAE265C881100374D0A /* Onboarding.storyboard in Resources */,
@@ -298,6 +306,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DFCA588A2692E5A3008BB72E /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCA588B2692E5A3008BB72E /* Base */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
 		F48D554A2536BAE700CE6DE4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
